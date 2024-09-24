@@ -5,11 +5,12 @@ header {
     padding: 20px; /* Espaciado alrededor de la imagen */
     background-color: #f8f9fa; /* Color de fondo opcional */
 }
-.containerimg{
-    width: 20%;
-    height: 20%;
+
+.logo-container {
+    width: auto; /* Ajusta automáticamente según el contenido */
 }
-.logo-container img {
-    max-width: 20px; /* Controla el tamaño de la imagen */
-    height: 100px;
+
+.logo {
+    width: 150px; /* Establece el ancho fijo de la imagen */
+    height: auto; /* Mantiene la proporción original de la imagen */
 }
