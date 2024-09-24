@@ -1,0 +1,120 @@
+.outer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-container {
+    display: flex;
+    width: 900px;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin: auto;
+}
+
+.form-container {
+    flex: 1;
+    padding: 40px;
+    background-color: #f8f9fa;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.form-container h2 {
+    margin-bottom: 20px;
+    color: #011A5D; /* Color principal aplicado */
+}
+
+.input-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    background-color: #fff;
+    border: 2px solid #ccc;
+    border-radius: 15px;
+    padding: 12px;
+}
+
+input {
+    border: none;
+    outline: none;
+    width: 100%;
+    font-size: 16px;
+    color: #495057;
+}
+
+.extra-options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.rememberMe {
+    display: flex;
+}
+
+.rememberMe p {
+    margin-left: 10px;
+}
+
+.forgot-password {
+    margin-left: 5px;
+    color: #011A5D; /* Color principal aplicado */
+    font-size: 14px;
+}
+
+.forgot-password:hover {
+    text-decoration: underline;
+}
+
+.login-btn {
+    padding: 15px;
+    background-color: #011A5D; /* Color principal aplicado */
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+}
+
+.login-btn:hover {
+    background-color: #010D3A; /* Color más oscuro para hover */
+}
+
+.create-account {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.create-account a {
+    color: #011A5D; /* Color principal aplicado */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.create-account a:hover {
+    text-decoration: underline;
+}
+
+.welcome-container {
+    flex: 1;
+    background: linear-gradient(135deg, #011A5D 0%, #010D3A 100%); /* Gradiente aplicado con tonos del color principal */
+    color: #fff;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.button {
+    display: flex;
+    justify-content: center;
+}
