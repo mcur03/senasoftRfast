@@ -1,0 +1,15 @@
+header {
+    display: flex;
+    justify-content: flex-start; /* Alinea el contenido a la izquierda */
+    align-items: flex-start; /* Alinea verticalmente en la parte superior */
+    padding: 20px; /* Espaciado alrededor de la imagen */
+    background-color: #f8f9fa; /* Color de fondo opcional */
+}
+.containerimg{
+    width: 20%;
+    height: 20%;
+}
+.logo-container img {
+    max-width: 20px; /* Controla el tamaño de la imagen */
+    height: 100px;
+}
